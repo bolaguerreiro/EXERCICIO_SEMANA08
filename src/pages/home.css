@@ -1,0 +1,11 @@
+.lista-categorias {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.content {
+    margin:50px;
+    display: grid;
+    padding-top: 200px;
+    grid-template-columns: repeat(4, 1fr);
+}

@@ -1,0 +1,33 @@
+.card-categoria {
+    display: flex;
+    cursor: pointer;
+    box-sizing: border-box;
+    -webkit-box-pack: center;
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    min-width: 80px;
+    width: min-content;
+    margin: 10px;  
+    flex: 1 1 47%;
+}
+
+.card-categoria__bg {
+    margin-block-start: 15px;
+    width: 200px;
+    height: 75px;
+    background-color: rgb(243, 246, 243);
+    border-radius: 12px;
+    position: relative;
+}
+
+img {
+    position: absolute;
+    height: 70px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
